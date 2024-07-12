@@ -9,18 +9,18 @@ export default function Highlight() {
         <p className="text-2xl text-black mb-4 font-bold ">Highlight</p>
       </div>
 
-      <div className="grid lg:grid-cols-4 gap-4 w-full grid-cols-3">
+      <div className="grid md:grid-cols-6 gap-4 p-4 grid-cols-3">
         {data.map((item) => {
           return (
             <div
               key={item.name}
-              className="p-1 flex flex-col justify-start items-center cursor-pointer border rounded-md hover:bg-slate-100"
+              className="flex flex-col justify-start items-center border rounded-md hover:bg-slate-100 cursor-pointer p-1"
             >
               <a href={item.post_url}>
                 <img
                   src={item.image_url[1]}
                   alt=""
-                  className="border-transparent rounded-md"
+                  className="rounded-md w-full h-auto"
                 />
                 <p className=" text-black text-[1rem] text-center align-top ">
                   {item.name}

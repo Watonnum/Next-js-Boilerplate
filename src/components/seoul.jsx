@@ -2,27 +2,27 @@
 
 'use client';
 
-import Bnk48 from '../app/music';
+import DataSeoul from '../app/seoul';
 
-export default function Bnk() {
+export default function Seoul() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto my-[2rem]">
       <div className="my-4 p-1">
-        <p className="text-2xl text-black mb-4 font-bold ">BNK48</p>
+        <p className="text-2xl text-black mb-4 font-bold ">Seoul</p>
       </div>
 
-      <div className="grid md:grid-cols-6 gap-4 w-full grid-cols-3">
-        {Bnk48.map((data) => {
+      <div className="grid md:grid-cols-6 gap-4 grid-cols-3">
+        {DataSeoul.map((data) => {
           return (
             <div
               key={data.topic_id}
-              className="p-1 flex flex-col justify-start items-center cursor-pointer border rounded-md hover:bg-slate-100"
+              className="flex flex-col justify-start items-center border rounded-md hover:bg-slate-100 cursor-pointer p-1"
             >
               <a href={data.post_url}>
                 <img
                   src={data.thumbnail_url}
                   alt=""
-                  className="border-transparent rounded-md w-full lg:h-[200px]"
+                  className=" rounded-md w-full h-[180px]"
                 />
                 <p className=" text-black text-[1rem] text-center align-top my-2">
                   {data.title}

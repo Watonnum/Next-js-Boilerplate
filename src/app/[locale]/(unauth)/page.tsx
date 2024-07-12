@@ -1,15 +1,17 @@
+// import FoodRoom from '../../../components/foodRoom';
 import Bnk from '../../../components/bnk48';
-import Carousel from '../../../components/carroussel';
-import FoodRoom from '../../../components/foodRoom';
+import Gallery from '../../../components/gallery';
 import Highlight from '../../../components/highlight';
+import Seoul from '../../../components/seoul';
 
 export default function Index() {
   return (
     <div>
-      <Carousel />
       <Highlight />
-      <FoodRoom />
+      {/* <FoodRoom /> */}
+      <Gallery />
       <Bnk />
+      <Seoul />
     </div>
   );
 }
