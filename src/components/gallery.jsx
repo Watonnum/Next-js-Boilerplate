@@ -12,7 +12,7 @@ export default function Gallery() {
         <p className="text-2xl text-black mb-4 font-semibold ">แกลลอรี่</p>
       </div>
 
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {DataGallery.map((data) => {
           return (
             <div

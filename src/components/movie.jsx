@@ -14,7 +14,7 @@ export default function Movies() {
         </p>
       </div>
 
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {DataMovies.map((data) => {
           return (
             <div
