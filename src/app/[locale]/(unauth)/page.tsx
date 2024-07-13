@@ -1,4 +1,3 @@
-// import FoodRoom from '../../../components/foodRoom';
 import Bnk from '../../../components/bnk48';
 import Gallery from '../../../components/gallery';
 import Highlight from '../../../components/highlight';
@@ -7,9 +6,8 @@ import Seoul from '../../../components/seoul';
 
 export default function Index() {
   return (
-    <div>
+    <div className="mt-80">
       <Highlight />
-      {/* <FoodRoom /> */}
       <Gallery />
       <Bnk />
       <Seoul />

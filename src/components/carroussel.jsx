@@ -39,7 +39,7 @@ const Carousel = () => {
     ],
   };
   return (
-    <div className="my-[0.5rem]">
+    <div className="my-[2rem]">
       <Slider {...settings}>
         {RecommendTrack.map((data) => (
           <div key={data.id}>
@@ -50,12 +50,11 @@ const Carousel = () => {
               <img
                 src={data.room_icon_url}
                 alt=""
-                className="w-[1.5rem] brightness-50 "
+                className="w-[3rem] brightness-50"
               />
-              {/* <div className="text-[1.5rem] text-white px-6 flex justify-center items-center">
-              {data.room_icon_url}
-            </div> */}
-              <p className="text-center text-[#8B8B8B] p-2">{data.name}</p>
+              <p className="text-center text-[#8B8B8B] p-2 text-md">
+                {data.name}
+              </p>
             </a>
           </div>
         ))}

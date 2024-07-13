@@ -9,7 +9,7 @@ export default function Bnk() {
   return (
     <div className="container mx-auto">
       <div className="my-4 p-1">
-        <p className="text-2xl text-black mb-4 font-bold ">BNK48</p>
+        <p className="text-2xl text-black mb-4 font-bold ">Bnk48</p>
       </div>
 
       <div className="grid gap-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
@@ -17,13 +17,13 @@ export default function Bnk() {
           return (
             <div
               key={data.topic_id}
-              className="p-1 flex flex-col justify-start items-center cursor-pointer border rounded-md hover:bg-slate-100 relative"
+              className="p-1 flex flex-col justify-start items-center cursor-pointer relative"
             >
               <a href={data.post_url}>
                 <img
                   src={data.thumbnail_url}
                   alt=""
-                  className="border-transparent rounded-md w-full lg:h-[200px]"
+                  className="rounded-xl w-[23rem] h-[16rem]"
                 />
                 <p className=" text-black text-[1rem] text-center align-top my-2">
                   {data.title}

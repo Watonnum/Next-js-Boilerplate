@@ -8,9 +8,12 @@ import DataGallery from '../app/gallery';
 export default function Gallery() {
   return (
     <div className="container mx-auto my-[2rem]">
-      <div className="my-4 p-1 flex hover:underline">
-        <a href="https://pantip.com/forum/gallery">
-          <p className="text-2xl text-black mb-4 font-bold ">Gallery</p>
+      <div className="my-4 p-1 flex">
+        <a
+          href="https://pantip.com/forum/gallery"
+          className="flex hover:underline"
+        >
+          <p className="text-2xl text-black mb-4 font-bold ">แกลลอรี่</p>
         </a>
       </div>
 
@@ -19,13 +22,13 @@ export default function Gallery() {
           return (
             <div
               key={data.topic_id}
-              className="flex flex-col justify-start items-center border rounded-md hover:bg-slate-100 cursor-pointer p-1 relative"
+              className="flex flex-col justify-start items-center cursor-pointer relative"
             >
               <a href={data.post_url}>
                 <img
                   src={data.thumbnail_url}
                   alt=""
-                  className=" rounded-md w-full h-[180px]"
+                  className="rounded-xl w-[23rem] h-[16rem]"
                 />
                 <p className=" text-black text-[1rem] text-center align-top my-2">
                   {data.title}
