@@ -9,12 +9,7 @@ export default function Gallery() {
   return (
     <div className="container mx-auto my-[2rem]">
       <div className="my-4 p-1 flex">
-        <a
-          href="https://pantip.com/forum/gallery"
-          className="flex hover:underline"
-        >
-          <p className="text-2xl text-black mb-4 font-semibold ">แกลลอรี่</p>
-        </a>
+        <p className="text-2xl text-black mb-4 font-semibold ">แกลลอรี่</p>
       </div>
 
       <div className="grid gap-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
