@@ -30,9 +30,9 @@ export default function Layout(props: { children: React.ReactNode }) {
   return (
     <div>
       <div
-        className={`fixed top-0 mx-auto w-full transition-transform duration-500 ${isScrolled ? '-translate-y-full' : 'translate-y-0'}`}
+        className={`fixed top-0 w-full transition-transform duration-500 ${isScrolled ? '-translate-y-full' : 'translate-y-0'}`}
       >
-        <div className="flex items-center justify-between border-b p-3 sm:justify-around">
+        <div className="mx-auto flex max-w-[95rem] items-center justify-around border-b p-3 md:justify-between">
           {/* logo */}
           <div className="hidden lg:block">
             <a href="/" aria-label="..">

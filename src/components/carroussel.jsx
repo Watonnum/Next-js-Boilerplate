@@ -39,13 +39,13 @@ const Carousel = () => {
     ],
   };
   return (
-    <div className="my-[2rem]">
+    <div className="my-[2rem] max-w-[95rem] mx-auto">
       <Slider {...settings}>
         {RecommendTrack.map((data) => (
           <div key={data.id}>
             <a
               href={data.link_url}
-              className="flex justify-center flex-col items-center hover:brightness-0"
+              className="flex justify-center flex-col items-center hover:brightness-0 duration-300"
             >
               <img
                 src={data.room_icon_url}
