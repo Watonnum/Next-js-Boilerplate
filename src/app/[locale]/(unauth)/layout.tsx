@@ -14,7 +14,7 @@ export default function Layout(props: { children: React.ReactNode }) {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY >= 70) {
+      if (window.scrollY >= 200) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -30,11 +30,11 @@ export default function Layout(props: { children: React.ReactNode }) {
   return (
     <div>
       <div
-        className={`fixed top-0 w-full transition-transform duration-500 ${isScrolled ? '-translate-y-full' : 'translate-y-0'}`}
+        className={`fixed top-0 w-full border-b bg-white transition-transform duration-500 ${isScrolled ? '-translate-y-full' : 'translate-y-0'}`}
       >
-        <div className="mx-auto flex max-w-[95rem] items-center justify-around border-b p-3 md:justify-between">
+        <div className="mx-auto flex items-center justify-around p-3 md:max-w-screen-sm md:justify-between lg:max-w-[60rem] xl:max-w-screen-xl 2xl:max-w-[110rem]">
           {/* logo */}
-          <div className="hidden lg:block">
+          <div className="hidden md:flex">
             <a href="/" aria-label="..">
               <img
                 src="/pantipLogo.jpg"
@@ -46,7 +46,7 @@ export default function Layout(props: { children: React.ReactNode }) {
 
           {/* center */}
           <div className="flex gap-0 md:gap-6">
-            <div className="hidden items-center gap-4 md:flex">
+            <div className="hidden items-center gap-4 lg:flex">
               <a href="/">
                 <div className="rounded-2xl px-5 py-2 hover:cursor-pointer hover:bg-[#fff2f2]">
                   <p>ตั้งกระทู้</p>
@@ -65,7 +65,7 @@ export default function Layout(props: { children: React.ReactNode }) {
           </div>
 
           {/* Profile dropdown */}
-          <div className="flex gap-6 text-white">
+          <div className="hidden gap-6 text-white md:flex">
             <div className="flex items-center justify-center contain-none">
               <Menu>
                 <MenuButton className="flex flex-row items-center gap-4 rounded-full border px-5 py-3 text-sm/6 font-semibold text-[#615e5e] shadow-inner focus:outline-none data-[hover]:bg-[#ffffffcf] data-[open]:bg-white data-[hover]:shadow-md data-[focus]:outline-1 data-[focus]:outline-white">

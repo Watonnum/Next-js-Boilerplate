@@ -30,7 +30,7 @@ export default function Movies() {
                 <p className=" text-black text-sm text-center align-top my-2">
                   {data.title}
                 </p>
-                <div className="absolute top-2 right-2 border rounded-lg p-[0.25rem] gap-1 bg-[#cbd3dc99] text-[0.7rem] flex items-center">
+                <div className="absolute top-5 right-5 border rounded-lg p-[0.25rem] gap-1 bg-[#cbd3dc99] text-[0.7rem] flex items-center">
                   <p className="text-">{data.views_count}</p>
                   <FaRegEye className="text-[0.8rem]" />
                 </div>
