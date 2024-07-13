@@ -4,24 +4,24 @@ import { useState } from 'react';
 
 export default function NavSerch() {
   const [destination, setDestination] = useState('');
-  const [checkIn, setCheckIn] = useState('');
-  const [checkOut, setCheckOut] = useState('');
-  const [guests, setGuests] = useState('');
+  // const [checkIn, setCheckIn] = useState('');
+  // const [checkOut, setCheckOut] = useState('');
+  // const [guests, setGuests] = useState('');
 
   return (
-    <div className="flex items-center justify-between rounded-lg shadow-md px-4 py-3 bg-white">
+    <div className="flex items-center justify-around rounded-lg shadow-md px-4 py-3 bg-white">
       <div className="flex flex-col mx-2">
-        <label className="text-gray-500 text-sm">สถานที่</label>
+        {/* <label className="text-gray-500 text-sm">ฉันกำลังมองหา</label> */}
         <input
           type="text"
-          placeholder="ค้นหาปลายทาง"
+          placeholder="ค้นหาบน Pantip"
           className="outline-none text-black"
           value={destination}
           onChange={(e) => setDestination(e.target.value)}
         />
       </div>
 
-      <div className="flex flex-col mx-2">
+      {/* <div className="flex flex-col mx-2">
         <label className="text-gray-500 text-sm">เช็คอิน</label>
         <input
           type="date"
@@ -29,9 +29,9 @@ export default function NavSerch() {
           value={checkIn}
           onChange={(e) => setCheckIn(e.target.value)}
         />
-      </div>
+      </div> */}
 
-      <div className="flex flex-col mx-2">
+      {/* <div className="flex flex-col mx-2">
         <label className="text-gray-500 text-sm">เช็คเอาท์</label>
         <input
           type="date"
@@ -39,9 +39,9 @@ export default function NavSerch() {
           value={checkOut}
           onChange={(e) => setCheckOut(e.target.value)}
         />
-      </div>
+      </div> */}
 
-      <div className="flex flex-col mx-2">
+      {/* <div className="flex flex-col mx-2">
         <label className="text-gray-500 text-sm">จำนวนผู้เข้าพัก</label>
         <input
           type="number"
@@ -50,9 +50,9 @@ export default function NavSerch() {
           value={guests}
           onChange={(e) => setGuests(e.target.value)}
         />
-      </div>
+      </div> */}
 
-      <button className="bg-red-500 text-white p-3 rounded-full ml-2">
+      <button className="bg-red-500 text-white p-3 rounded-full ml-2 hover:bg-red-400 hover:shadow-inner active:bg-red-600">
         <svg
           className="w-6 h-6"
           fill="none"

@@ -14,7 +14,7 @@ export default function Layout(props: { children: React.ReactNode }) {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 70) {
+      if (window.scrollY >= 70) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -30,9 +30,9 @@ export default function Layout(props: { children: React.ReactNode }) {
   return (
     <div>
       <div
-        className={`fixed top-0 mx-auto w-full transition-transform duration-300 ${isScrolled ? '-translate-y-full' : 'translate-y-0'}`}
+        className={`fixed top-0 mx-auto w-full transition-transform duration-500 ${isScrolled ? '-translate-y-full' : 'translate-y-0'}`}
       >
-        <div className="flex items-center justify-between p-3">
+        <div className="flex items-center justify-between border-b p-3 sm:justify-around">
           {/* logo */}
           <div className="hidden lg:block">
             <a href="/" aria-label="..">
@@ -45,17 +45,23 @@ export default function Layout(props: { children: React.ReactNode }) {
           </div>
 
           {/* center */}
-          <div className="flex gap-4">
-            <a href="/">
-              <div className="rounded-2xl px-5 py-2 hover:cursor-pointer hover:bg-[#fff2f2]">
-                <p>ตั้งกระทู้</p>
-              </div>
-            </a>
-            <a href="/">
-              <div className="rounded-2xl px-5 py-2 hover:bg-[#fff2f2]">
-                คอมมูนิตี้
-              </div>
-            </a>
+          <div className="flex gap-6">
+            <div className="hidden items-center gap-4 sm:block">
+              <a href="/">
+                <div className="rounded-2xl px-5 py-2 hover:cursor-pointer hover:bg-[#fff2f2]">
+                  <p>ตั้งกระทู้</p>
+                </div>
+              </a>
+              <a href="/">
+                <div className="rounded-2xl px-5 py-2 hover:bg-[#fff2f2]">
+                  คอมมูนิตี้
+                </div>
+              </a>
+            </div>
+            {/* center-serchBar */}
+            <div className="flex justify-center">
+              <NavSerch />
+            </div>
           </div>
 
           {/* Profile dropdown */}
@@ -100,8 +106,12 @@ export default function Layout(props: { children: React.ReactNode }) {
               </Menu>
             </div>
           </div>
+          {/* serchBar
+          <div className="flex justify-center">
+            <NavSerch />
+          </div> */}
         </div>
-        <NavSerch />
+        {/* Carousel */}
         <Carousel />
       </div>
 
