@@ -13,7 +13,7 @@ export default function Gallery() {
           href="https://pantip.com/forum/gallery"
           className="flex hover:underline"
         >
-          <p className="text-2xl text-black mb-4 font-bold ">แกลลอรี่</p>
+          <p className="text-2xl text-black mb-4 font-semibold ">แกลลอรี่</p>
         </a>
       </div>
 
@@ -22,13 +22,13 @@ export default function Gallery() {
           return (
             <div
               key={data.topic_id}
-              className="flex flex-col justify-start items-center cursor-pointer relative"
+              className="flex flex-col justify-start items-center cursor-pointer relative p-3"
             >
               <a href={data.post_url}>
                 <img
                   src={data.thumbnail_url}
                   alt=""
-                  className="rounded-xl w-[23rem] h-[16rem]"
+                  className="rounded-xl md:w-[23rem] w-full h-[16rem]"
                 />
                 <p className=" text-black text-[1rem] text-center align-top my-2">
                   {data.title}

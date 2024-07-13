@@ -9,7 +9,7 @@ export default function Movies() {
   return (
     <div className="container mx-auto">
       <div className="my-4 p-1">
-        <p className="text-2xl text-black mb-4 font-bold ">
+        <p className="text-2xl text-black mb-4 font-semibold">
           หนัง / ภาพยนต์ / ซีรีย์
         </p>
       </div>
@@ -19,13 +19,13 @@ export default function Movies() {
           return (
             <div
               key={data.topic_id}
-              className="flex flex-col justify-start items-center cursor-pointer relative"
+              className="flex flex-col justify-start cursor-pointer relative p-3"
             >
               <a href={data.post_url}>
                 <img
                   src={data.thumbnail_url}
                   alt=""
-                  className="rounded-xl w-[23rem] h-[16rem]"
+                  className="rounded-xl md:w-[23rem] w-full h-[16rem]"
                 />
                 <p className=" text-black text-sm text-center align-top my-2">
                   {data.title}

@@ -9,12 +9,12 @@ import 'slick-carousel/slick/slick-theme.css';
 const Carousel = () => {
   const settings = {
     dots: false,
-    arrows: true,
+    arrows: false,
     autoplay: true,
-    autoplaySpeed: 100,
+    autoplaySpeed: 500,
     pauseOnHover: true,
     infinite: true,
-    speed: 3000,
+    speed: 4000,
     slidesToShow: 10,
     slidesToScroll: 3,
     responsive: [
@@ -24,14 +24,14 @@ const Carousel = () => {
           slidesToShow: 8,
           slidesToScroll: 7,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 5,
-          slidesToScroll: 5,
+          slidesToScroll: 3,
           initialSlide: 1,
           dots: false,
         },

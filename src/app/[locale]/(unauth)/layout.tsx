@@ -45,8 +45,8 @@ export default function Layout(props: { children: React.ReactNode }) {
           </div>
 
           {/* center */}
-          <div className="flex gap-6">
-            <div className="hidden items-center gap-4 sm:block">
+          <div className="flex gap-0 md:gap-6">
+            <div className="hidden items-center gap-4 md:flex">
               <a href="/">
                 <div className="rounded-2xl px-5 py-2 hover:cursor-pointer hover:bg-[#fff2f2]">
                   <p>ตั้งกระทู้</p>
@@ -59,7 +59,7 @@ export default function Layout(props: { children: React.ReactNode }) {
               </a>
             </div>
             {/* center-serchBar */}
-            <div className="flex justify-center">
+            <div className="flex">
               <NavSerch />
             </div>
           </div>
@@ -106,12 +106,7 @@ export default function Layout(props: { children: React.ReactNode }) {
               </Menu>
             </div>
           </div>
-          {/* serchBar
-          <div className="flex justify-center">
-            <NavSerch />
-          </div> */}
         </div>
-        {/* Carousel */}
         <Carousel />
       </div>
 

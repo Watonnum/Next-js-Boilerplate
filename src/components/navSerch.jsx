@@ -52,7 +52,7 @@ export default function NavSerch() {
         />
       </div> */}
 
-      <button className="bg-red-500 text-white p-3 rounded-full ml-2 hover:bg-red-400 hover:shadow-inner active:bg-red-600">
+      <button className="bg-red-500 text-white p-3 rounded-full ml-2 hover:bg-red-400 hover:shadow-inner active:bg-red-600 duration-300">
         <svg
           className="w-6 h-6"
           fill="none"
