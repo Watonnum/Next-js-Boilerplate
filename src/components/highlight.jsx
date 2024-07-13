@@ -9,7 +9,7 @@ export default function Highlight() {
         <p className="text-2xl text-black mb-4 font-bold ">Highlight</p>
       </div>
 
-      <div className="grid md:grid-cols-6 gap-4 p-4 grid-cols-3">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
         {data.map((item) => {
           return (
             <div

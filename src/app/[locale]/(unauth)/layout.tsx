@@ -7,15 +7,15 @@ import Carousel from '../../../components/carroussel';
 
 export default function Layout(props: { children: React.ReactNode }) {
   return (
-    <div className="container sticky top-0 mx-auto">
+    <div className="container mx-auto">
       <div className=" sticky flex items-center  justify-between border-b border-slate-300 p-4">
         {/* logo */}
         <div className="hidden lg:block">
           <a href="/" aria-label="..">
             <img
-              src="/airbnb-svgrepo-com.svg"
+              src="/pantipLogo.jpg"
               alt=""
-              className="w-16 cursor-pointer"
+              className="w-[7.5rem] cursor-pointer"
             />
           </a>
         </div>
@@ -23,10 +23,10 @@ export default function Layout(props: { children: React.ReactNode }) {
         {/* center */}
         <div className="flex gap-4">
           <div className="rounded-2xl px-5 py-2 hover:bg-[#fff2f2]">
-            <a href="/">ที่พัก</a>
+            <a href="/">ตั้งกระทู้</a>
           </div>
           <div className="rounded-2xl px-5 py-2 hover:bg-[#fff2f2]">
-            <a href="/">เอ็กพีเรียนซ์</a>
+            <a href="/">คอมมูนิตี้</a>
           </div>
         </div>
 
@@ -57,7 +57,7 @@ export default function Layout(props: { children: React.ReactNode }) {
                     type="submit"
                     className="flex w-full items-center justify-center gap-2 rounded-lg px-3 py-1.5 text-black data-[focus]:bg-[#fae2e2]"
                   >
-                    ตั้งกระทู้
+                    แลกพ้อยต์
                   </button>
                 </MenuItem>
                 <MenuItem>
@@ -65,7 +65,7 @@ export default function Layout(props: { children: React.ReactNode }) {
                     type="submit"
                     className="flex w-full items-center justify-center gap-2 rounded-lg px-3 py-1.5 text-black data-[focus]:bg-[#fae2e2]"
                   >
-                    คอมมูนิตี้
+                    กิจกรรมพันทิป
                   </button>
                 </MenuItem>
               </MenuItems>

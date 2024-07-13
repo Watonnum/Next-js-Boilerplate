@@ -2,21 +2,24 @@
 
 'use client';
 
+import { FaRegEye } from 'react-icons/fa';
 import DataGallery from '../app/gallery';
 
 export default function Gallery() {
   return (
     <div className="container mx-auto my-[2rem]">
-      <div className="my-4 p-1">
-        <p className="text-2xl text-black mb-4 font-bold ">Gallery</p>
+      <div className="my-4 p-1 flex hover:underline">
+        <a href="https://pantip.com/forum/gallery">
+          <p className="text-2xl text-black mb-4 font-bold ">Gallery</p>
+        </a>
       </div>
 
-      <div className="grid md:grid-cols-6 gap-4 grid-cols-3">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
         {DataGallery.map((data) => {
           return (
             <div
               key={data.topic_id}
-              className="flex flex-col justify-start items-center border rounded-md hover:bg-slate-100 cursor-pointer p-1"
+              className="flex flex-col justify-start items-center border rounded-md hover:bg-slate-100 cursor-pointer p-1 relative"
             >
               <a href={data.post_url}>
                 <img
@@ -28,6 +31,10 @@ export default function Gallery() {
                   {data.title}
                 </p>
               </a>
+              <div className="absolute top-2 right-2 border rounded-lg p-[0.25rem] gap-1 bg-[#cbd3dc99] text-[0.7rem] flex items-center">
+                <p className="text-">{data.views_count}</p>
+                <FaRegEye className="text-[0.8rem]" />
+              </div>
             </div>
           );
         })}
