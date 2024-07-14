@@ -3,6 +3,7 @@ const DataSeoul = [
     topic_id: 42837072,
     title: 'LISA ROCKSTAR has reached 💯  Million views',
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42837072',
     created_time: '2024-07-11T21:40:20Z',
     author: {
       id: 673815,
@@ -43,6 +44,7 @@ const DataSeoul = [
     topic_id: 42831044,
     title: 'LISA’s “Rockstar” debuts at No. 70 on Billboard Hot100 this week.',
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42831044',
     created_time: '2024-07-08T21:01:46Z',
     author: {
       id: 6445379,
@@ -84,6 +86,7 @@ const DataSeoul = [
     title:
       '[NEWS] รายงานการวิจัยของเกาหลีใต้ สำรวจความคิดเห็นสาธารณะชนทั่วประเทศว่า ใครคือ “นักร้องที่เป็นตัวแทนของเกาหลีใต้”',
     topic_type: 5,
+    post_url: 'https://pantip.com/topic/42837312',
     created_time: '2024-07-12T02:32:20Z',
     author: {
       id: 5710496,
@@ -129,6 +132,7 @@ const DataSeoul = [
     title:
       'LISA\'s "ROCKSTAR" debuts at #1 Billboard Global 200 Excl.u.s & Billboard Global 200 #4',
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42831027',
     created_time: '2024-07-08T20:19:08Z',
     author: {
       id: 673815,
@@ -170,6 +174,7 @@ const DataSeoul = [
     title:
       '"3D (feat. Jack Harlow)" กลายเป็นเพลงที่ 4  ของ Jungkook  ที่มียอดสตรีมทะลุ  600 ล้านครั้ง บน  Spotify🎉',
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42837134',
     created_time: '2024-07-11T23:48:33Z',
     author: {
       id: 1445123,
@@ -205,6 +210,7 @@ const DataSeoul = [
     topic_id: 42837792,
     title: 'บอสลิซ่า แห่ง LLOUD โพสขอบคุณแดนเซอร์ ทีมงานคุณ Sean Bankhead',
     topic_type: 5,
+    post_url: 'https://pantip.com/topic/42837792',
     created_time: '2024-07-12T07:16:24Z',
     author: {
       id: 4021474,
@@ -249,6 +255,7 @@ const DataSeoul = [
     topic_id: 42837594,
     title: 'KISS OF LIFE 🎉\nยินดีกับ Natty และเพื่อนๆด้วยครับ',
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42837594',
     created_time: '2024-07-12T05:11:16Z',
     author: {
       id: 2624463,
@@ -281,6 +288,7 @@ const DataSeoul = [
     topic_id: 42832406,
     title: 'LISA เข้าร่วมงานคอนเสิร์ต Global Citizen Festival @NYC USA 🇺🇸',
     topic_type: 5,
+    post_url: 'https://pantip.com/topic/42832406',
     created_time: '2024-07-09T12:03:22Z',
     author: {
       id: 6067899,
@@ -326,6 +334,7 @@ const DataSeoul = [
     title:
       '✨ผลสำรวจชาวเกาหลีใต้ในหัวข้อ "นักร้องที่เป็นตัวแทนของเกาหลีใต้คือใคร ?" 61% ระบุว่า BTS คือตัวแทนนักร้องของเกาหลี',
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42837258',
     created_time: '2024-07-12T01:46:31Z',
     author: {
       id: 1445123,
@@ -362,6 +371,7 @@ const DataSeoul = [
     title:
       '‘ลิซ่า’ ได้รับเชิดชูให้เป็น ลูกกตัญญู ‘คุณแม่จิตรทิพย์’ เป็นแม่ดีเด่น 2567',
     topic_type: 5,
+    post_url: 'https://pantip.com/topic/42838518',
     created_time: '2024-07-12T14:08:21Z',
     author: {
       id: 4021474,

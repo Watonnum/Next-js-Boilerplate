@@ -7,12 +7,14 @@ import Seoul from '../../../components/seoul';
 
 export default function Index() {
   return (
-    <div className="mt-80">
-      <Highlight />
-      <Gallery />
-      <Bnk />
-      <Seoul />
-      <Movies />
+    <div>
+      <div className="mb-10 mt-80">
+        <Highlight />
+        <Gallery />
+        <Bnk />
+        <Seoul />
+        <Movies />
+      </div>
       <Footer />
     </div>
   );

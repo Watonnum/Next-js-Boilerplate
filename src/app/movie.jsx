@@ -15,7 +15,7 @@ const DataMovies = [
       },
       slug: '/profile/3992813',
     },
-    url: 'https://pantip.com/topic/42836085',
+    post_url: 'https://pantip.com/topic/42836085',
     thumbnail_url:
       'https://ptcdn.info/pantip_pick/2024-07/6690c0c817e00f66e71a4198_elrnstpsj6_400.jpg',
     topic_type: 3,

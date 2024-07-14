@@ -32,7 +32,7 @@ export default function Layout(props: { children: React.ReactNode }) {
       <div
         className={`fixed top-0 w-full border-b bg-white transition-transform duration-500 ${isScrolled ? '-translate-y-full' : 'translate-y-0'}`}
       >
-        <div className="mx-auto flex items-center justify-around p-3 md:max-w-screen-sm md:justify-between lg:max-w-[60rem] xl:max-w-screen-xl 2xl:max-w-[110rem]">
+        <div className="mx-auto flex items-center justify-around p-3 md:max-w-screen-sm md:justify-between lg:max-w-[60rem] xl:max-w-screen-xl 2xl:max-w-[115rem]">
           {/* logo */}
           <div className="hidden md:flex">
             <a href="/" aria-label="..">

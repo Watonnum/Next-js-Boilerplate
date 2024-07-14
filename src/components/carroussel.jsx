@@ -39,7 +39,7 @@ const Carousel = () => {
     ],
   };
   return (
-    <div className="my-[2rem] mx-auto bg-white md:justify-between 2xl:max-w-[110rem] xl:max-w-screen-xl lg:max-w-[60rem] md:max-w-screen-sm">
+    <div className="my-[2rem] mx-auto bg-white md:justify-between 2xl:max-w-[115rem] xl:max-w-screen-xl lg:max-w-[60rem] md:max-w-screen-sm">
       <Slider {...settings}>
         {RecommendTrack.map((data) => (
           <div key={data.id}>

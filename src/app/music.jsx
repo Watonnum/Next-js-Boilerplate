@@ -2,6 +2,7 @@ const Bnk48 = [
   {
     topic_id: 42837098,
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42837098',
     title:
       'เราเป็นช่างภาพอันเกรียงไกร​ พวกเจ้าต้องทำตามที่ข้าสั่ง ไม่งั้นพวกเจ้าจะไม่มีพลัง ไม่เชื่อถามซัทจัง โดนมาแล้วเอย',
     created_time: '2024-07-11T22:48:28Z',
@@ -47,6 +48,7 @@ const Bnk48 = [
   {
     topic_id: 42836349,
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42837098',
     title:
       'มาแล้ว!! ผลด่วน BNK48 & CGM48 Request Hour 2024 - BATTLE VOTE & SPECIAL SONG 48 ชั่วโมงแรก',
     created_time: '2024-07-11T11:01:04Z',
@@ -80,6 +82,7 @@ const Bnk48 = [
   {
     topic_id: 42837465,
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42837465',
     title: 'รุ่น2ได้ไปเป็นนางเอกMVอีกคนแล้วครับ',
     created_time: '2024-07-12T03:53:38Z',
     views_count: 0,
@@ -120,6 +123,7 @@ const Bnk48 = [
   {
     topic_id: 42836500,
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42836500',
     title: 'รุ่น5 ลงสตอรี่IG ได้แล้วหรอนี้',
     created_time: '2024-07-11T12:30:49Z',
     views_count: 796,
@@ -160,6 +164,7 @@ const Bnk48 = [
   {
     topic_id: 42834962,
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42834962',
     title: '[19Lab] Spoiler Alert!! Ep.2 สำหรับแฟนคลับ BNK48',
     created_time: '2024-07-10T16:28:53Z',
     views_count: 2437,
@@ -208,6 +213,7 @@ const Bnk48 = [
   {
     topic_id: 42838503,
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42838503',
     title:
       'เพื่อนๆคิดว่า Road Show Love Trip วันอาทิตย์นี้จะมีการประกาศเรื่องอะไร?',
     created_time: '2024-07-12T14:02:43Z',
@@ -245,13 +251,14 @@ const Bnk48 = [
   {
     topic_id: 42837807,
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42837807',
     title: 'เมื่อ...คุณรักเขาถึงขั้นสุดแล้ว😂😂',
     created_time: '2024-07-12T07:25:38Z',
     views_count: 0,
     comments_count: 2,
     votes_count: 0,
     thumbnail_url:
-      'https://f.ptcdn.info/798/084/000/sgi1oz2e7xrr16n9p7tDZ-s.jpg',
+      'https://f.ptcdn.info/798/084/000/sgi1oz2e7xrr16n9p7tDZ-o.jpg',
     author: {
       id: 531541,
       name: 'The Storm on the Sea',
@@ -289,6 +296,7 @@ const Bnk48 = [
   {
     topic_id: 42836376,
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42836376',
     title:
       'กรี๊ดสนั่น! เมื่อพี่ๆ BNK 48 มาส่งกำลังใจถึง รายการ MasterChef Junior Thailand Season 3',
     created_time: '2024-07-11T11:17:19Z',
@@ -330,6 +338,7 @@ const Bnk48 = [
   {
     topic_id: 42838152,
     topic_type: 1,
+    post_url: 'https://pantip.com/topic/42838152',
     title:
       '=== เพลงแนะนำของสมาชิก BNK48 & CGM48 ที่อยากให้เห็นใน Request Hour 2024 ===',
     created_time: '2024-07-12T10:42:55Z',
@@ -367,7 +376,8 @@ const Bnk48 = [
   {
     topic_id: 42833666,
     topic_type: 1,
-    title: '"ถ่ายต่ำจัง เอาขึ้นมาหน่อย"',
+    post_url: 'https://pantip.com/topic/42833666',
+    title: 'ถ่ายต่ำจัง เอาขึ้นมาหน่อย',
     created_time: '2024-07-10T05:18:00Z',
     views_count: 5778,
     comments_count: 28,
