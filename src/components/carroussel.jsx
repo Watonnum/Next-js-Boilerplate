@@ -9,20 +9,21 @@ import 'slick-carousel/slick/slick-theme.css';
 const Carousel = () => {
   const settings = {
     dots: false,
-    arrows: false,
+    arrows: true,
     autoplay: true,
-    autoplaySpeed: 500,
+    autoplaySpeed: 5000,
     pauseOnHover: true,
     infinite: true,
-    speed: 4000,
-    slidesToShow: 10,
-    slidesToScroll: 3,
+    speed: 1000,
+    slidesToShow: 8,
+    slidesToScroll: 6,
+    initialSlide: 0,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 8,
-          slidesToScroll: 7,
+          slidesToShow: 7,
+          slidesToScroll: 6,
           infinite: true,
           dots: false,
         },
@@ -39,7 +40,7 @@ const Carousel = () => {
     ],
   };
   return (
-    <div className="my-[2rem] mx-auto bg-white md:justify-between 2xl:max-w-[115rem] xl:max-w-screen-xl lg:max-w-[60rem] md:max-w-screen-sm">
+    <div className="my-[2rem] mx-auto bg-white md:justify-between 2xl:max-w-[115rem] xl:max-w-screen-xl lg:max-w-[60rem] md:max-w-screen-sm max-w-[23rem]">
       <Slider {...settings}>
         {RecommendTrack.map((data) => (
           <div key={data.id}>

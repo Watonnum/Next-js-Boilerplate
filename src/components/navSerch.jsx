@@ -7,9 +7,32 @@ export default function NavSerch() {
   // const [checkIn, setCheckIn] = useState('');
   // const [checkOut, setCheckOut] = useState('');
   // const [guests, setGuests] = useState('');
+  const [hoverShowBorder, setHoverShowBorder] = useState(false);
 
   return (
-    <div className="flex items-center justify-around rounded-lg shadow-md px-4 py-3 bg-white">
+    <div className="flex items-center justify-around rounded-full shadow-md px-4 py-3 bg-white">
+      {/* text */}
+      <div className=" md:flex md:flex-col hidden lg:flex lg:flex-row">
+        <a
+          href="/"
+          onMouseEnter={() => setHoverShowBorder(true)}
+          onMouseLeave={() => setHoverShowBorder(false)}
+          className={`first hover:cursor-pointer hover:bg-[#eacece] hover:border-none hover:rounded-full`}
+        >
+          <div>
+            <p className="px-4">ตั้งกระทู้</p>
+          </div>
+        </a>
+        <a
+          href="/"
+          className={`second border-x hover:cursor-pointer hover:bg-[#eacece] hover:rounded-full ${hoverShowBorder ? 'hover:border-none' : null}`}
+        >
+          <div>
+            <p className="px-4">คอมมูนิตี้</p>
+          </div>
+        </a>
+      </div>
+      {/* serch */}
       <div className="flex flex-col mx-2">
         {/* <label className="text-gray-500 text-sm">ฉันกำลังมองหา</label> */}
         <input
